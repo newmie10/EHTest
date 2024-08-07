@@ -1,17 +1,20 @@
+
+
+
 {
-  "domain": "effortlesshome",
+  "domain": "eh",
   "name": "EffortlessHome",
-  "codeowners": ["@newmie10"],
+  "version": "1.0",
+  "codeowners": [
+    "@jamesbeebe" ],
   "config_flow": true,
+  "documentation": "https://www.example.com",
+  "requirements": [],
   "dependencies": [],
-  "documentation": "https://www.home-assistant.io/integrations/eh",
-  "homekit": {},
+  "codeowners": [],
   "iot_class": "assumed_state",
-  "requirements": [
-    "google-auth",
-    "google-auth-oauthlib",
-    "google-auth-httplib2"
-  ],
+  "integration_type": "hub",
+  "supported_platforms": ["alarm_control_panel","customer", "light", "sensor"],
   "ssdp": [],
   "zeroconf": []
 }

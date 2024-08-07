@@ -1,0 +1,17 @@
+{
+  "domain": "effortlesshome",
+  "name": "EffortlessHome",
+  "codeowners": ["@newmie10"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/eh",
+  "homekit": {},
+  "iot_class": "assumed_state",
+  "requirements": [
+    "google-auth",
+    "google-auth-oauthlib",
+    "google-auth-httplib2"
+  ],
+  "ssdp": [],
+  "zeroconf": []
+}
