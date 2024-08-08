@@ -3,11 +3,11 @@
 from unittest.mock import AsyncMock, patch
 
 from homeassistant import config_entries
-from homeassistant.components.effortlesshome.config_flow import (
+from homeassistant.components.eh.config_flow import (
     CannotConnect,
     InvalidAuth,
 )
-from homeassistant.components.effortlesshome.const import DOMAIN
+from homeassistant.components.eh.const import DOMAIN
 from homeassistant.const import CONF_HOST, CONF_PASSWORD, CONF_USERNAME
 from homeassistant.core import HomeAssistant
 from homeassistant.data_entry_flow import FlowResultType
